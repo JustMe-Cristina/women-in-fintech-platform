@@ -84,14 +84,18 @@ This project was developed as an academic assignment to demonstrate the use of L
 7.	Start the development server:
    php artisan serve
 
+---
+
 The application will be available at: http://127.0.0.1:8000
 
+---
 
 Database Structure
 	•	members
 	•	success_stories (One-to-Many with members)
 	•	events
 
+---
 
 Notes
 	•	The .env file is intentionally excluded from the repository.
