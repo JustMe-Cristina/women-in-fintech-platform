@@ -1,0 +1,11 @@
+cat > .gitignore << 'EOF'
+/vendor
+/node_modules
+.env
+/.idea
+.DS_Store
+/storage/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+EOF
